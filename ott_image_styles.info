@@ -1,0 +1,15 @@
+name = City of Ottawa Image Styles
+description = Image styles used for feature images through out Ottawa.ca
+core = 7.x
+package = City of Ottawa
+version = 7.x-1.0-beta1
+project = ott_image_styles
+dependencies[] = image
+features[features_api][] = api:2
+features[image][] = ott_1col_feature_image
+features[image][] = ott_2col_feature_image
+features[image][] = ott_3col_feature_image
+features[image][] = ott_4col_feature_image
+features[image][] = ott_5col_feature_image
+features[image][] = ott_6col_feature_image
+features[image][] = ott_feature_image_thumb
