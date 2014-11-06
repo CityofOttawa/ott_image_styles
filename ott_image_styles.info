@@ -13,3 +13,4 @@ features[image][] = ott_4col_feature_image
 features[image][] = ott_5col_feature_image
 features[image][] = ott_6col_feature_image
 features[image][] = ott_feature_image_thumb
+features[image][] = ott_header_banner
