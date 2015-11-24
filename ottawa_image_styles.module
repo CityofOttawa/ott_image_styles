@@ -4,4 +4,4 @@
  * Code for the City of Ottawa Image Styles feature.
  */
 
-include_once 'ott_image_styles.features.inc';
+include_once 'ottawa_image_styles.features.inc';

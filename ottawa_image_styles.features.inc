@@ -1,18 +1,18 @@
 <?php
 /**
  * @file
- * ott_image_styles.features.inc
+ * ottawa_image_styles.features.inc
  */
 
 /**
  * Implements hook_image_default_styles().
  */
-function ott_image_styles_image_default_styles() {
+function ottawa_image_styles_image_default_styles() {
   $styles = array();
 
-  // Exported image style: ott_1col_feature_image.
-  $styles['ott_1col_feature_image'] = array(
-    'name' => 'ott_1col_feature_image',
+  // Exported image style: ottawa_1col_feature_image.
+  $styles['ottawa_1col_feature_image'] = array(
+    'name' => 'ottawa_1col_feature_image',
     'label' => 'Single Column Feature Image',
     'effects' => array(
       1 => array(
@@ -33,9 +33,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_2col_feature_image.
-  $styles['ott_2col_feature_image'] = array(
-    'name' => 'ott_2col_feature_image',
+  // Exported image style: ottawa_2col_feature_image.
+  $styles['ottawa_2col_feature_image'] = array(
+    'name' => 'ottawa_2col_feature_image',
     'label' => 'Two Column Feature Image',
     'effects' => array(
       2 => array(
@@ -56,9 +56,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_3col_feature_image.
-  $styles['ott_3col_feature_image'] = array(
-    'name' => 'ott_3col_feature_image',
+  // Exported image style: ottawa_3col_feature_image.
+  $styles['ottawa_3col_feature_image'] = array(
+    'name' => 'ottawa_3col_feature_image',
     'label' => 'Three Column Feature Image',
     'effects' => array(
       4 => array(
@@ -79,9 +79,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_4col_feature_image.
-  $styles['ott_4col_feature_image'] = array(
-    'name' => 'ott_4col_feature_image',
+  // Exported image style: ottawa_4col_feature_image.
+  $styles['ottawa_4col_feature_image'] = array(
+    'name' => 'ottawa_4col_feature_image',
     'label' => 'Four Column Feature Image',
     'effects' => array(
       5 => array(
@@ -102,9 +102,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_5col_feature_image.
-  $styles['ott_5col_feature_image'] = array(
-    'name' => 'ott_5col_feature_image',
+  // Exported image style: ottawa_5col_feature_image.
+  $styles['ottawa_5col_feature_image'] = array(
+    'name' => 'ottawa_5col_feature_image',
     'label' => 'Five Column Feature Image',
     'effects' => array(
       6 => array(
@@ -125,9 +125,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_6col_feature_image.
-  $styles['ott_6col_feature_image'] = array(
-    'name' => 'ott_6col_feature_image',
+  // Exported image style: ottawa_6col_feature_image.
+  $styles['ottawa_6col_feature_image'] = array(
+    'name' => 'ottawa_6col_feature_image',
     'label' => 'Six Column Feature Image',
     'effects' => array(
       7 => array(
@@ -148,9 +148,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_feature_image_thumb.
-  $styles['ott_feature_image_thumb'] = array(
-    'name' => 'ott_feature_image_thumb',
+  // Exported image style: ottawa_feature_image_thumb.
+  $styles['ottawa_feature_image_thumb'] = array(
+    'name' => 'ottawa_feature_image_thumb',
     'label' => 'Feature Image Thumbnail',
     'effects' => array(
       3 => array(
@@ -171,9 +171,9 @@ function ott_image_styles_image_default_styles() {
     ),
   );
 
-  // Exported image style: ott_header_banner.
-  $styles['ott_header_banner'] = array(
-    'name' => 'ott_header_banner',
+  // Exported image style: ottawa_header_banner.
+  $styles['ottawa_header_banner'] = array(
+    'name' => 'ottawa_header_banner',
     'label' => 'Header banner Image',
     'effects' => array(
       1 => array(
